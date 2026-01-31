@@ -106,7 +106,9 @@ export const Header = () => {
             ))}
             <div className="pt-4 space-y-2 px-4">
               <Button variant="outline" className="w-full">
-                Entrar
+                <a href="https://cotaup.com.br/login">
+    Entrar
+  </a>
               </Button>
               <Button className="w-full">
                 Solicitar Demo

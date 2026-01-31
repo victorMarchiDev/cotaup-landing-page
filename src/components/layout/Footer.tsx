@@ -66,17 +66,13 @@ export const Footer = () => {
               
               {/* Contact Info */}
               <div className="space-y-3">
-                <a href="mailto:contato@cotaup.com" className="flex items-center gap-2 text-sm text-primary-foreground/60 hover:text-primary transition-colors">
+                <a href="mailto:suporte@cotaup.com" className="flex items-center gap-2 text-sm text-primary-foreground/60 hover:text-primary transition-colors">
                   <Mail className="w-4 h-4" />
-                  contato@cotaup.com
-                </a>
-                <a href="tel:+551199999999" className="flex items-center gap-2 text-sm text-primary-foreground/60 hover:text-primary transition-colors">
-                  <Phone className="w-4 h-4" />
-                  (11) 9 9999-9999
+                  suporte@cotaup.com
                 </a>
                 <p className="flex items-center gap-2 text-sm text-primary-foreground/60">
                   <MapPin className="w-4 h-4" />
-                  São Paulo, Brasil
+                  Maringá, Paraná, Brasil
                 </p>
               </div>
 
@@ -84,7 +80,7 @@ export const Footer = () => {
               <div className="flex gap-3 mt-6">
                 {[
                   { icon: Linkedin, href: "#" },
-                  { icon: Instagram, href: "#" },
+                  { icon: Instagram, href: "https://www.instagram.com/wintech.group/" },
                   { icon: Youtube, href: "#" },
                 ].map((social, index) => (
                   <motion.a
