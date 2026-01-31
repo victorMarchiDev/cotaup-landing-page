@@ -8,6 +8,7 @@ import {
   Youtube,
   ArrowUp
 } from "lucide-react";
+import logoCotaup from "@/assets/logo-cotaup.png";
 
 const footerLinks = {
   produto: [
@@ -55,9 +56,7 @@ export const Footer = () => {
               transition={{ duration: 0.6 }}
             >
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-                  <span className="text-xl font-bold text-primary-foreground">C</span>
-                </div>
+                <img src={logoCotaup} alt="Cotaup Logo" className="w-10 h-10 object-contain" />
                 <span className="text-xl font-bold">Cotaup</span>
               </div>
               <p className="text-primary-foreground/60 mb-6 max-w-xs">
