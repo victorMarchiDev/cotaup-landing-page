@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoCotaup from "@/assets/logo-cotaup.png";
 
 const navLinks = [
   { label: "Funcionalidades", href: "#features" },
@@ -41,9 +42,7 @@ export const Header = () => {
             whileHover={{ scale: 1.02 }}
             className="flex items-center gap-2"
           >
-            <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-              <span className="text-xl font-bold text-primary-foreground">C</span>
-            </div>
+            <img src={logoCotaup} alt="Cotaup Logo" className="w-10 h-10 object-contain" />
             <span className="text-xl font-bold text-foreground">Cotaup</span>
           </motion.a>
 
