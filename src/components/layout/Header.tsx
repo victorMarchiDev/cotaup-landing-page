@@ -63,7 +63,7 @@ export const Header = () => {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3">
             <Button variant="ghost" className="font-medium" asChild>
-              <a href="https://cotaup.com.br/login">Entrar</a>
+              <a href="https://app.cotaup.com.br/login">Entrar</a>
             </Button>
             <Button variant="default" className="font-medium">
               Solicitar Demo
